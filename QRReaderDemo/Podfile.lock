@@ -1,0 +1,15 @@
+PODS:
+  - Alamofire (4.4.0)
+  - OnOffButton (1.5)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - OnOffButton
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  OnOffButton: 0753a41630dc5c7ecd7d996a4154a1c79f33c99f
+
+PODFILE CHECKSUM: e26d522a006d953ed88e3ae1da8411b1c433cb53
+
+COCOAPODS: 1.2.1

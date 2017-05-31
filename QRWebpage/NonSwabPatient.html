@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- Custom Theme files -->
+    <link href="css/wickedpicker.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <!--fonts-->
+    <link href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <script src="InputCheck.js"></script>
+    <!--//fonts-->
+</head>
+<body onload = "setpid()">
+    <!--background-->
+    <h1> Data Collection Form </h1>
+    <div class="bg-agile">
+        <div class="book-appointment">
+            <h2>Date Collection Form</h2>
+            <form action="NonSwabPatient.php" method="post" name = "QRCode">
+                <div class="left-agileits-w3layouts same">
+                    <div class="gaps">
+                        <p>Patient Number:</p>
+                        <input type="text" name="patientNo" id="patientNo" placeholder="" required="" readonly="readonly"/>
+                    </div>
+                    <div class="gaps">
+                        <p>Gender:</p>
+                        <input type="text" name="gender"  placeholder="" required=""/>
+                    </div>
+                    </div>
+                    <div class="right-agileinfo same">
+                        <div class="gaps">
+                            <p>Date of birth:</p>
+                            <input type="date" name="dob"  placeholder="" required=""/>
+                        </div>
+                      </div>
+
+                      <div class="clear"></div>
+                      <p><button type="button" onClick="ShowHits1()">Generate</button></p>
+                  </form>
+              </div>
+          </div>
+
+          </body>
+          </html>
