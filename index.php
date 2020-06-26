@@ -1,2 +1,2 @@
 <?php
-echo "Hello Azure APP Service";
+echo "Hello World";
