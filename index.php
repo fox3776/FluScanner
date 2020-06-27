@@ -1,2 +1,2 @@
 <?php
-echo "Hello Azure";
+echo "Hello World";
